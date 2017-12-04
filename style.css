@@ -2,7 +2,9 @@
     font-family: 'Roboto-Black';
     src: url("Roboto-Black.ttf");
 }
-nav.contatti{
+
+header.contatti{
+
   width: 100%;
   background-color: #37D913;
   float: left;
@@ -17,6 +19,7 @@ img.contatti {
   margin: 2px;
   float: right;
   z-index: 1;
+  float: right;
 }
 
 p.contatti{
@@ -26,9 +29,22 @@ p.contatti{
     font-size: 18px;
     font-family: 'Roboto-Black'
 }
+.nav{
+    float: left;
+	padding-left:40px;
+    Margin: 11px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto-Black'	
+}
 .Presentazione {
+  position: absolute;
   float: left;
+  padding-left: 14%;
+  padding-top: 3%;
   width: 70%;
   font-family: 'Roboto-Black';
   font-size: 150%;
+  text-align: center;
 }
+
