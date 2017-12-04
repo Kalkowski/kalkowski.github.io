@@ -26,16 +26,18 @@ p.contatti{
     float: right;
     Margin: 11px;
     color: white;
-    font-size: 18px;
+    font-size: 100%;
     font-family: 'Roboto-Black'
 }
 .nav{
+	display:block;
     float: left;
-	padding-left:40px;
+	width: 27%;
     Margin: 11px;
     color: white;
-    font-size: 18px;
-    font-family: 'Roboto-Black'	
+    font-size: 100%;
+    font-family: 'Roboto-Black';	
+	text-align: center;
 }
 .Presentazione {
   float: left;
